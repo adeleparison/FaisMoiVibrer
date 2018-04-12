@@ -1,22 +1,16 @@
-<?php require('includes/config.php');
-?>
+<?php require('includes/config.php');?>
 
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <meta charset="utf-8">
+    <?php include('compo/head.php');?>
     <title>FaisMoiVibrer</title>
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/main.css">
   </head>
   <body>
     <div id="wrapper">
-
-      <h1>Fais Moi Vibrer</h1>
-      <hr />
-      <a href="articles.php">articles</a>
-      <a href="produits.php">toys</a>
+      <?php include('compo/navbar.php');?>
+      <?php include('compo/footer.php');?>
     </div>
-
+    <?php include('compo/script.php');?>
   </body>
 </html>
