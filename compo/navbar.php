@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#B21242;">
-  <a class="navbar-brand" href="index.php">Fais Moi Vibrer</a>
+  <a class="brand navbar-brand" href="index.php">Fais Moi Vibrer</a>
 
   <!--Pour faire appaitre le bouton sur les phones-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarPhone" aria-controls="navbarPhone" aria-expanded="false" aria-label="Toggle navigation">
