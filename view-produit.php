@@ -16,16 +16,14 @@ if($row['id'] == ''){
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
-    <meta charset="utf-8">
+    <?php include('compo/head.php');?>
     <title>Fais Moi Vibrer - <?php echo $row ['nom'];?></title>
   </head>
   <body>
     <div id="wrapper">
-
-      <h1>Fais Moi Vibrer</h1>
-      <hr />
+      <?php include('compo/navbar.php');?>
 
       <?php
       //On affiche le toy sélectionné en entier
@@ -44,7 +42,8 @@ if($row['id'] == ''){
       ?>
 
       <p><a href="produits.php">Retour</a></p>
-
+<?php include('compo/footer.php');?>
     </div>
+		<?php include('compo/script.php');?>
   </body>
 </html>
