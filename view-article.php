@@ -19,17 +19,13 @@ if($row['id'] == ''){
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
+    <?php include('compo/head.php');?>
     <title>Fais Moi Vibrer - <?php echo $row['titre'];?></title>
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/main.css">
 </head>
 <body>
 
 	<div id="wrapper">
-
-		<h1>Fais Moi Vibrer</h1>
-		<hr />
+		<?php include('compo/navbar.php');?>
 		<p><a href="articles.php">Retour</a></p>
 
 
@@ -42,8 +38,8 @@ if($row['id'] == ''){
 				echo '<p>'.$row['contenu'].'</p>';
 			echo '</div>';
 		?>
-
+<?php include('compo/footer.php');?>
 	</div>
-
+	<?php include('compo/script.php');?>
 </body>
 </html>
