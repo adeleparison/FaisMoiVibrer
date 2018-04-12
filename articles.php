@@ -1,18 +1,14 @@
-<?php require('includes/config.php'); ?>
+<?php require('includes/config.php');?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="utf-8">
-    <title>Fais Moi Vibrer</title>
-    <link rel="stylesheet" href="style/normalize.css">
-    <link rel="stylesheet" href="style/main.css">
+    <?php include('compo/head.php');?>
+    <title>Fais Moi Vibrer - Les articles</title>
 </head>
 <body>
 
 	<div id="wrapper">
-
-		<h1>Fais Moi Vibrer</h1>
-		<hr />
+    <?php include('compo/navbar.php');?>
 
 		<?php
 			try {
@@ -35,9 +31,10 @@
 			    echo $e->getMessage();
 			}
 		?>
+    <?php include('compo/footer.php');?>
 
 	</div>
 
-
+  <?php include('compo/script.php');?>
 </body>
 </html>
