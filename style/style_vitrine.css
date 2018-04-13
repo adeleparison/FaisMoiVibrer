@@ -2,13 +2,68 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+/** Page index.php **/
+.cadre {
+  margin: 100px 0 0 0;
+  border: 1px solid #C42F59;
+}
+
+.logo {
+  text-align: center;
+  color: #FFF;
+  font-family: 'Poiret One', cursive;
+  font-weight: 600;
+  font-size: 50px;
+  margin: 35px 0 35px 0;
+}
+
+.decription {
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.loi {
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 300;
+  list-style: none;
+  margin-left:0;
+  padding-left:0;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.btnAvertissement {
+  border-color: #C42F59;
+  margin-bottom: 20px;
+}
+
+.btnAvertissement:hover {
+  border-color: #C42F59;
+  background: #C42F59;
+}
+
+.lienGoSite, .lienGoSite:hover {
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+
 /** Navbar **/
 .brand {
   font-family: 'Poiret One', cursive;
   font-weight: 800;
 }
 
+/** Page produits.php CSS **/
+
+
 /** Erreur CSS **/
+.error {
+  border: 1px solid black;
+}
 
 
 /** Formulaire CSS **/
