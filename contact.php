@@ -116,7 +116,7 @@
                     <div class="form-row text-center">
                         <div class="col-12">
                             <button type="submit" name="submit" class="btnContact btn btn-outline-dark">Envoyer le message</button>
-                            <p class="error"><?php echo $info; ?></p>
+                            <p class=""><?php echo $info; ?></p>
                         </div>
                      </div>
 
